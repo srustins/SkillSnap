@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: rgb(195, 204, 231); 
+    background-image: url('https://images.unsplash.com/photo-1581091870622-7b1f8dcf7ed7');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  input, textarea {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    transition: border 0.3s ease;
+  }
+  
+  input:focus, textarea:focus {
+    border: 1px solid #5B4B8A; /* Deep lavender on focus */
+    outline: none;
+  }
+  
+  button {
+    background-color: #4e4762;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #483e63;
+  }
+  
+  .card {
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    margin: 20px auto;
+    border-radius: 30px;
+    width: 350px;
+    text-align: center;
+  }
+  

@@ -1,0 +1,121 @@
+.home-page {
+    background-color: #f4f6f8;
+    min-height: 100vh;
+    padding: 40px 16px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 24px;
+    color: #111827;
+  }
+  
+  .add-skill form {
+    background-color: #ffffff;
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    display: flex;
+    flex-direction: column;
+    gap: 12px; 
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .add-skill input,
+  .add-skill textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #e0e0e0;
+    font-size: 14px;
+    width: 200px;
+    margin: 2px 0; 
+  }
+  
+  
+  .add-skill textarea {
+    resize: none;
+    height: 38px;
+  }
+  
+  .add-skill button {
+    background-color: #1e40af;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-skill button:hover {
+    background-color: #1d4ed8;
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .skill-card {
+    background-color: #ffffff;
+    width: 300px; /* or max-width: 300px; */
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    text-align: left;
+  }
+  
+  
+  
+  .skill-card h4 {
+    margin: 0;
+    font-size: 18px;
+    color: #1e3a8a;
+  }
+  
+  .skill-card p {
+    color: #374151;
+    font-size: 14px;
+    margin: 6px 0 12px;
+  }
+  
+  .skill-card button {
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-size: 13px;
+    margin-right: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .skill-card button:first-of-type {
+    background-color: #1e40af;
+    color: white;
+  }
+  
+  .skill-card button:first-of-type:hover {
+    background-color: #1d4ed8;
+  }
+  
+  .skill-card button:last-of-type {
+    background-color: #dc2626;
+    color: white;
+  }
+  
+  .skill-card button:last-of-type:hover {
+    background-color: #550d0d;
+  }
+  
+  
+  
+  
+  
+  

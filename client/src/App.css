@@ -1,0 +1,58 @@
+.students-container {
+  padding: 2rem;
+  text-align: center;
+}
+
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.student-card {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  max-width: 250px;
+  text-align: left;
+}
+
+.student-card h3 {
+  color: #143d8f;
+}
+
+.student-card h4 {
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.student-card p {
+  margin: 0.8rem 0;
+  color: #444;
+}
+
+.btn-group {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.view-btn {
+  background-color: #143d8f;
+  color: white;
+  border: none;
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+}
+
+.delete-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+}
+
+

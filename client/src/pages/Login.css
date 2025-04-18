@@ -1,0 +1,114 @@
+.login-form {
+  background-color: #e6e6f5;
+  padding: 60px 70px;             /* More padding inside */
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  width: 600px;                   /* Wider box */
+  height: 500px;                  /* Taller box */
+  max-width: 100vw;
+  z-index: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;       /* Center content vertically */
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #333;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px 14px;
+  margin-bottom: 20px; /* increase spacing below inputs */
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(10, 10, 68, 0.4);
+  position: relative;
+}
+
+.login-container::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(94, 94, 129, 0.4);
+  z-index: 0;
+}
+
+.login-page {
+  background-size: auto;
+  background-repeat: repeat;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* Ensure form goes above pseudo-element */
+}
+
+  
+  .welcome-message {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #211769;
+    margin-bottom: 15px;
+  }
+  .logo {
+    display: block;
+    margin: 0 auto 16px auto;
+    width: 60px;
+  }  
+  
+  .login-form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 320px;
+  }
+  
+  
+  .login-form h2 {
+    text-align: center;
+    color: #142f78;
+  }
+  
+  .login-form input {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #0d1115;
+    font-size: 14px;
+  }
+  
+  .login-form button {
+    padding: 10px;
+    background-color: #1e40af;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-form button:hover {
+    background-color: #1d4ed8;
+  }
+  
+  
